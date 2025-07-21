@@ -1,0 +1,19 @@
+It’s a powerful feature of Java that allows you to logically group classes that are only used in one place, 
+helping with encapsulation and readability.
+
+
+🔸Types of Inner Classes in Java
+
+| Type                      | Description                                                                                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Member Inner Class**    | Non-static class defined directly inside another class.                                                                                    |
+| **Static Nested Class**   | Static class inside another class. Doesn’t need outer class instance.                                                                      |
+| **Local Inner Class**     | Defined inside a method, constructor, or block.                                                                                            |
+| **Anonymous Inner Class** | Class without a name, used for instantiating objects with certain "on-the-fly" behavior, usually used with interfaces or abstract classes. |
+
+
+
+
+to call a method in inner class we need to create a obj for inner class
+
+OuterClass.InnerClass innerObject = outerObject.new InnerClass();
