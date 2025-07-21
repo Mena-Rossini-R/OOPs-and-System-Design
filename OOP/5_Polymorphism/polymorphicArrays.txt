@@ -1,0 +1,14 @@
+Polymorphic Arrays or Collections
+
+
+
+Engineering obj = new CSE();
+
+
+
+
+Engineering[] depts = { new CSE(), new AIDS(), new AIML() };
+
+for (Engineering dept : depts) {
+    dept.print(); // Each calls its own overridden version
+}

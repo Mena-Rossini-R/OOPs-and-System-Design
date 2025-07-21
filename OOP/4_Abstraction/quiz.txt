@@ -1,0 +1,36 @@
+Great effort! Let's go through your answers and clear up the confusion:
+
+---
+
+### ✅ **Your Answers Reviewed**
+
+1. **1 → d** ✅
+   ✔️ Correct! An abstract class **can have both abstract and non-abstract methods**.
+
+2. **2 → you said "idk"**
+   ❌ Correct answer: **a) Compile-time error**
+   🔹 If a subclass does **not override all abstract methods**, it must itself be declared **abstract**, otherwise Java throws a **compile-time error**.
+
+3. **3 → c** ✅
+   ✔️ Correct! `abstract` is the correct keyword to declare an abstract class.
+
+4. **4 → You said "no"** ❌
+   ✅ Correct answer: **a) Yes**
+   🔹 Abstract classes **can have static methods**. These methods belong to the class, not to instances, so they don’t require implementation in subclasses.
+
+5. **5 → a** ❌
+   ✅ Correct answer: **d) A class with no abstract method can still be abstract**
+   🔹 You can declare a class abstract even **without abstract methods**. This is done to **prevent object creation** or to **force inheritance**.
+
+---
+
+### 🧠 Summary:
+
+* You got **2/5 correct**.
+* Key takeaways:
+
+  * Abstract classes can have static methods.
+  * Not implementing abstract methods = must declare subclass as abstract.
+  * Abstract classes don’t *need* to have abstract methods.
+
+Want another quiz or should we move to **Interfaces** (last OOP pillar)?

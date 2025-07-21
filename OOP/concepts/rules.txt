@@ -1,0 +1,9 @@
+1) Only one public class per file is allowed
+
+2) to use super() -> it should be in the first line, it should be only 
+
+3) we can use super.methodName -> to access immediate parent method -> can be in any line and anywhere(in constructor/ methods)
+
+
+Java constructor chaining rule : 
+Before a subclass constructor runs, the parent constructor is automatically invoked.

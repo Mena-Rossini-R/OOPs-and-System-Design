@@ -1,0 +1,44 @@
+Encapsulation is the process of bundling variables and methods together within a single unit (a class) 
+and restricting direct access to some of the object's components.
+
+💡 Key Goals:
+
+    Protect the data.
+    Control access using access modifiers.
+    Ensure objects maintain a valid state.
+
+
+✅ How Do We Achieve It?
+
+    Make variables private.
+    Provide public getters and setters to access/update them.
+
+🧪 Benefits of Encapsulation:
+
+    Protects data from unwanted changes.
+    Makes maintenance easier.
+    Adds control over data.
+    Improves reusability and flexibility.
+
+
+Improves security, modularity, and maintainability.
+
+
+IMMUTABILITY can be acheived if PRIVATE FINAL keywords are used together
+
+
+✅ 4. Encapsulation ≠ Abstraction
+
+    Encapsulation = how you protect data
+
+    Abstraction = what you expose or hide
+
+
+🔄 Encapsulation in Real Life
+
+    Think of it like a medicine capsule – you don't know what's inside (private), but you get the result by taking it (public method).
+
+    Or like ATM: You use buttons (methods) without seeing how it talks to your bank (data).
+
+
+"Encapsulation provides security by restricting direct access to data and enabling validation via public methods."

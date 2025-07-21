@@ -1,0 +1,8 @@
+mix of all inheritance -
+
+Yes, we can simulate hybrid inheritance using only classes, 
+but it will never be true hybrid inheritance in the strict C++ sense 
+because Java does not support multiple inheritance with classes.
+
+
+can do only with class and interface

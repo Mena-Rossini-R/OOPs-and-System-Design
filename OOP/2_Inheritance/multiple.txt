@@ -1,0 +1,27 @@
+Multiple Inheritance - b extends to a1,a2
+
+with classes it is not implemented - implemented using interfaces
+
+why ?
+
+it causes a DIAMOND PROBLEM 
+
+       A
+     /   \
+    B     C
+     \   /
+       D
+
+
+    Class B and C both inherit from A
+
+    Class D inherits from both B and C
+
+Now, if class A has a method like show(), 
+and both B and C override it, 
+then which version should D inherit?
+
+That’s the ambiguity (somthing which is not clear/ multiple meaning)
+
+
+

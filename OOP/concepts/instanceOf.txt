@@ -1,0 +1,1 @@
+is a operator to checl if an object is an instance of a specific class

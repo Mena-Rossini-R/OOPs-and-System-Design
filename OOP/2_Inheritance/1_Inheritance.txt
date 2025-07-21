@@ -1,0 +1,4 @@
+Mechanism wher eone class acquires the properties(field) and behaviours(method)
+
+keyword : extends
+

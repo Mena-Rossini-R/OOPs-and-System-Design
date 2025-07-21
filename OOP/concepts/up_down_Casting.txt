@@ -1,0 +1,3 @@
+Upcasting: Subclass object → Superclass reference (safe)
+
+Downcasting: Superclass reference → Subclass (need explicit cast)

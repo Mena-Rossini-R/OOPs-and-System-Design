@@ -1,0 +1,21 @@
+Here's a list of important built-in interfaces in Java you should know:
+Interface	Package	Purpose / Use Case
+Runnable	java.lang	Run code in a thread
+Serializable	java.io	Save/transfer objects
+Comparable<T>	java.lang	Sort objects by natural order
+Comparator<T>	java.util	Custom sorting logic
+Cloneable	java.lang	Allows cloning of objects
+AutoCloseable	java.lang	Use in try-with-resources block
+Iterable<T>	java.lang	Allows use in enhanced for-each loop
+Callable<V>	java.util.concurrent	Like Runnable, but can return a result and throw exceptions
+Closeable	java.io	For closing I/O resources (used in files, sockets)
+Readable	java.lang	For reading character streams
+Flushable	java.io	For flushing I/O streams
+🔸 Some Modern Java Interfaces (from Java 8+)
+Interface	Package	Purpose
+Function<T,R>	java.util.function	Functional interface for lambda with one argument and return value
+Predicate<T>	java.util.function	Functional interface for testing conditions
+Consumer<T>	java.util.function	Performs an action on a single input
+Supplier<T>	java.util.function	Supplies results without input
+BiFunction<T,U,R>	java.util.function	Like Function, but takes 2 arguments
+These are mainly used in streams, lambdas, and functional programming.

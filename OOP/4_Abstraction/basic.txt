@@ -1,0 +1,47 @@
+Abstraction means hiding complex implementation details and showing only the essential features to the user.
+
+    Think of a TV remote - press d button, dont care whats happening inside
+
+
+1) using abstract class          2)using interface
+
+
+
+✅ Use-case difference:
+Abstract Class	                                                        Interface
+Can have both methods with and without body	            All methods are abstract by default (until Java 8)
+Use when classes are closely related	                Use to define a contract with multiple implementations
+Supports constructors	                                             No constructors
+
+
+
+Step 1: Abstract Classes
+🔹 What is it?
+
+An abstract class:
+
+    Cannot be instantiated (no new AbstractClass())
+
+    Can have abstract methods (no body)
+
+    Can have concrete methods (with body)
+
+    Acts as a base for subclasses to build on
+
+
+
+🧠 In Java
+
+Abstraction can be achieved in two main ways:
+Method	Description
+Abstract class	Partially abstract. Can have both abstract (unimplemented) and concrete (implemented) methods.
+Interface	Fully abstract (until Java 7). From Java 8 onwards, it can have default and static methods.
+
+
+
+💬 Summary Table
+Feature	                Abstract Class	                        Interface
+Can have constructor	    ✅ Yes	                            ❌ No
+Can have method body	    ✅ Yes	                            ✅ (from Java 8 onwards)
+Multiple inheritance	    ❌ Not supported	                    ✅ Supported
+Access modifiers	    ✅ public, protected, private	        ✅ All methods are public
